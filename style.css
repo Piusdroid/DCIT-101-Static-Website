@@ -1,0 +1,97 @@
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    height: 80px;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    height: 80px;
+    width: 80px;
+    transition: 0.5s;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(4, 40, 107);
+  }
+
+  .topnav a.active {
+    background-color: #97a0f0;
+    color: white;
+  }
+
+  .topbar{
+      height: 150px;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      opacity: 0.3;
+      text-shadow: 5px 5px 5px black;
+  }
+
+  h1{
+    font-size: 60px;
+    padding: 50px;
+    color: rgb(2, 20, 56);
+  }
+
+ 
+
+  .container{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    margin: 30px;
+    margin-bottom: 550px;
+    width: 75%;
+    border-radius: 15px;
+    background-color: #97a0f0;
+    opacity: 0.9;
+  }
+
+  .space{
+      border-radius: 15px;
+      float: left;
+      height: 260px;
+      width: 250px;
+      opacity: 0.8;
+  }
+
+  .space-text{
+      font-size: 25px;
+      font-style: var(#97a0f0);
+      float: left;
+      color: black;
+      margin-left: 20px;
+      align-content:center ;
+
+  }
+
+
+  
+
+  footer {
+    position: fixed;
+    margin-top: 2%;
+    height: 59px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: oblique;
+    bottom: 0;
+    color: white;
+    background-color: rgb(95, 146, 239);
+  }
